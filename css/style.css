@@ -1,0 +1,425 @@
+.sidebar {
+  background: url(bgsidebar.jpg);
+  background-size: cover;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 2;
+  width: 25%;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.sidebar-inner {
+  background-color: rgba(145, 13, 13, 0.8);
+}
+
+.sidebar a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.main-navigation a,
+.block-title {
+  color: rgb(245, 143, 143);
+  text-decoration: none;
+}
+.sidebar .avatar-all {
+  text-align: center;
+}
+.sidebar-inner {
+  padding: 45px 40px;
+  height: 100%;
+}
+.avatar-all .avatar-pic {
+  margin-bottom: 10px;
+}
+
+.avatar-detail h6 {
+  font-weight: normal;
+}
+
+.avatar-detail {
+  color: #fff;
+}
+.avatar-all .avatar-pic .avatar {
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+}
+
+.navigation-extendable {
+  padding-top: 15%;
+}
+.navigation-extendable ul li,
+.sub-skills li {
+  list-style-type: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.social-icons a {
+  color: #fff;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.block-social {
+  padding-left: 10%;
+  padding-top: 15%;
+}
+
+.block-title {
+  font-size: 10px;
+}
+
+.data {
+  padding-left: 25%;
+  position: relative;
+  overflow-x: hidden;
+}
+.profile-info .about-me p {
+  display: inline;
+}
+.profile-info {
+  margin: 4px;
+}
+#profile {
+  background-color: rgb(227, 243, 253);
+  position: relative;
+}
+.about-me {
+  width: 58%;
+  border-right: 2px solid #22a39f;
+  height: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.about-me h4 {
+  text-align: center;
+}
+
+.info-parent {
+  width: 40%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.info-parent h4 {
+  text-align: center;
+}
+#sub-profile {
+  font-weight: 150;
+}
+#profile h1,
+#profile h4 {
+  color: #22a39f;
+  text-align: center;
+}
+h4#sub-profile {
+  text-align: center;
+  padding-bottom: 2%;
+  font-weight: 150;
+  color: darkgray;
+}
+
+.about-me,
+.info-parent p {
+  font-weight: 150;
+}
+.about-me,
+.info-parent {
+  padding-top: 2%;
+}
+
+#profile {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  height: 725px;
+}
+#education,
+#skills {
+  position: relative;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: hsl(310, 100%, 94%);
+}
+#skills {
+  background-color: rgb(227, 243, 253);
+}
+#education h1,
+#skills h1,
+#contact h1 {
+  text-align: center;
+  color: #22a39f;
+}
+
+#inspired {
+  display: block;
+  text-align: center;
+  font-weight: 120;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.profile #get-donated {
+  align-items: center;
+}
+#donate {
+  background-color: rgb(89, 89, 207);
+  color: #fff;
+  cursor: pointer;
+  margin-left: 50%;
+  border-radius: 5px;
+}
+
+.clg-name {
+  width: 38%;
+  height: auto;
+  border-right: 3px solid #22a39f;
+  margin-right: 2%;
+}
+.course-name {
+  width: 57%;
+}
+
+.courses,
+.sub-skills {
+  padding-left: 4%;
+  padding-top: 2%;
+}
+
+#end2 {
+  padding-bottom: 2%;
+}
+
+.skill-1,
+.skill-2 {
+  width: 50%;
+  padding-right: 2%;
+}
+
+.skill-1 {
+  height: auto;
+  border-right: 3px solid #22a39f;
+  padding-right: 4%;
+}
+.skill-2 {
+  padding-left: 2%;
+  padding-right: 4%;
+}
+.rating {
+  float: right;
+}
+
+.lang-name {
+  font-weight: 100;
+}
+.rating .glyphicon-star.filled {
+  color: #22a39f;
+}
+.rating .glyphicon-star {
+  color: #dfe0e0;
+}
+#lang-h1 {
+  padding-top: 4%;
+}
+
+.translate {
+  list-style-type: none;
+  padding-top: 2%;
+}
+
+.translate li .rating {
+  padding-right: 54.5%;
+}
+
+.navigation-extendable li a.current {
+  color: #fff;
+  text-decoration: none;
+}
+
+#contact h4 {
+  text-align: center;
+  font-weight: 100;
+  color: rgb(151, 149, 149);
+}
+#contact li {
+  list-style-type: none;
+}
+#contact li a {
+  font-size: 8px;
+}
+
+#ending li {
+  position: relative;
+}
+.pad1,
+.pad2,
+.pad3,
+.pad4 {
+  position: absolute;
+  left: 30%;
+}
+/* .pad1 {
+  padding-left: 37%;
+}
+
+.pad2 {
+  padding-left: 35%;
+}
+
+.pad3 {
+  padding-left: 36.3%;
+}
+
+.pad4 {
+  padding-left: 34.2%;
+} */
+#skills #ski {
+  text-align: center;
+  color: darkgray;
+}
+
+#education {
+  height: 725px;
+}
+
+#edu {
+  text-align: center;
+  color: darkgray;
+}
+
+#contact {
+  background-color: #f3efe0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#projects {
+  text-align: center;
+  align-items: center;
+  padding-top: 2%;
+  background-color: rgb(238, 212, 178);
+}
+
+#projects h1 {
+  color: #22a39f;
+}
+
+#projects h4 {
+  font-weight: 150;
+  color: darkgray;
+}
+
+#projects .divpad {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.divpad a {
+  text-decoration: none;
+}
+.line {
+  padding-left: 11%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#contact #ending {
+  padding-bottom: 38%;
+}
+
+div.container {
+  position: relative;
+  width: 390px;
+  height: 286px;
+}
+
+div.container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4%;
+}
+
+div.container div.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s ease;
+  background: #3accc7;
+  opacity: 0;
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4%;
+  margin-left: 3.9%;
+}
+
+div.container:hover .overlay {
+  width: 93%;
+  opacity: 0.9;
+}
+
+.navigation-extend-bar {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .navigation-extendable {
+    display: none;
+  }
+  .sidebar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  .block-social {
+    display: none;
+  }
+  .navigation-extend-bar {
+    display: block;
+    position: relative;
+  }
+
+  .navigation-extend-bar .social-icons {
+    position: absolute;
+  }
+  .navigation-extend-button {
+    position: absolute;
+    right: 0;
+  }
+  .data {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navigation-extend-bar .navigation-extendable {
+    position: absolute;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sub-skills .skill-1 {
+    border-right: none;
+    width: 100%;
+  }
+  .sub-skills .skill-2 {
+    width: 100%;
+  }
+  ul .translate {
+    width: 100%;
+  }
+  .translate li .rating {
+    padding-right: 1%;
+  }
+}
+
+.sticky {
+  width: 100%;
+}
