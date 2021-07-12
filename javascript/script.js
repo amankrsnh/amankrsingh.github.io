@@ -4,7 +4,6 @@ window.addEventListener('load',function(event){
 
 function changeColor(event)
 {
-    console.log("color changed");
     window.location=event.target.href;
     $(window).ready(function(){
         disablei();
@@ -13,8 +12,6 @@ function changeColor(event)
             if (window.location.href.includes(this.href,0)) 
             {
                 $(this).addClass("current");
-                console.log("current : "+this.href)
-                console.log(this.innerHTML);
                 this.nextSibling.innerHTML=" >";
             }
             else
@@ -22,7 +19,16 @@ function changeColor(event)
                 $(this).removeClass("current");
             }
         });
-        
+        $("div[class='hideit']").each(function(){
+        if(window.location.href.indexOf(this.id)!==-1)
+        {
+            this.style.display="block";
+        }
+        else
+        {
+            this.style.display="none";
+        }
+    });
     });
 }
 
@@ -45,17 +51,4 @@ function extendNavbar()
     {
         document.getElementById("extendnav").style.display="block";
     }
-}
-
-window.onscroll = function() {myFunction()};
-var navb = document.getElementById('stickit');
-console.log(navb);
-var sticky = navb.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navb.addClass("sticky")
-  } else {
-    navb.removeClass("sticky");
-  }
 }
